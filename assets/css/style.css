@@ -2,11 +2,24 @@
 
 .header-title {
     color: #fafafa;
+    text-align: center;
 }
+
+.link-text {
+    color: #fafafa;
+}
+
+.link-text:hover {
+    color: #2e2c2c
+}
+
 
 /* ----------------------------------------------------- Colors */
 
-.bg-main {
+.bg-main-ui {
     background-color: #2e2c2c;
-    text-align: center;
+}
+
+.bg-sec-ui {
+    background-color: #b31b10;
 }
