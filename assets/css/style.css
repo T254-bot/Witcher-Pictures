@@ -1,16 +1,35 @@
+@font-face {
+    font-family: 'thewitcher';
+    src: url('thewitcher.woff2') format('woff2'),
+        url('thewitcher.woff') format('woff'),
+        url('thewitcher.svg#thewitcher') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* ----------------------------------------------------- Header */
 
 .header-title {
     color: #fafafa;
     text-align: center;
+    font-family: 'thewitcher', sans-serif;
+    font-size: 48px;
+    text-decoration: underline;
 }
 
 .link-text {
     color: #fafafa;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
 }
 
 .link-text:hover {
     color: #2e2c2c
+}
+
+nav {
+    height: 30px;
 }
 
 
