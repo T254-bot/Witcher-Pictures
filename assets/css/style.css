@@ -22,6 +22,7 @@
     color: #fafafa;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
+    padding: 0;
 }
 
 .link-text:hover {
@@ -30,6 +31,11 @@
 
 nav {
     height: 30px;
+}
+
+.bg-nav-toggle {
+    width: 65px;
+    background-color: #b31b10
 }
 
 
@@ -42,3 +48,60 @@ nav {
 .bg-sec-ui {
     background-color: #b31b10;
 }
+
+/* ----------------------------------------------------- Footer */
+
+.footer-header {
+    font-family: 'thewitcher', sans-serif;
+    color: #fafafa;
+    font-size: 12px;
+    padding-top: 6px;
+}
+
+.footer-text {
+    color: #fafafa;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+}
+
+.footer-text-top {
+    color: #fafafa;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.footer-link-text {
+    color: #fafafa;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+.my-email {
+    font-family: 'thewitcher', sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+/* ----------------------------------------------------- Special Margins/Texts */
+
+.no-padding {
+    padding: 0;
+}
+
+.link-text {
+    color: #fafafa;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+.link-text:hover {
+    color: #2e2c2c
+}
+
+.footer-link-text:hover {
+    color: #2e2c2c;
+}
+
