@@ -18,19 +18,20 @@
     text-decoration: underline;
 }
 
-.link-text {
-    color: #fafafa;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    padding: 0;
-}
-
-.link-text:hover {
-    color: #2e2c2c
-}
-
 nav {
     height: 30px;
+}
+
+.nav-cont {
+    height: 30px;
+}
+
+.toggle-button {
+    color:#2e2c2c;
+}
+
+.nav-button {
+    padding: 0px 0px 0px 12px;
 }
 
 .bg-nav-toggle {
@@ -62,6 +63,8 @@ nav {
     color: #fafafa;
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
+    float: right;
+    clear: both;
 }
 
 .footer-text-top {
@@ -69,6 +72,8 @@ nav {
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
     margin-bottom: 6px;
+    clear: both;
+    float: right;
 }
 
 .footer-link-text {
@@ -83,8 +88,6 @@ nav {
 }
 
 
-
-
 /* ----------------------------------------------------- Special Margins/Texts */
 
 .no-padding {
@@ -95,11 +98,13 @@ nav {
     color: #fafafa;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
+    padding: 0;
 }
 
 .link-text:hover {
     color: #2e2c2c
 }
+
 
 .footer-link-text:hover {
     color: #2e2c2c;
