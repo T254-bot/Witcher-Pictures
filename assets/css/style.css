@@ -26,6 +26,10 @@ nav {
     height: 30px;
 }
 
+.text-nav {
+    margin-right: 30px;
+}
+
 .toggle-button {
     color:#2e2c2c;
 }
@@ -87,6 +91,27 @@ nav {
     font-size: 18px;
 }
 
+/* ----------------------------------------------------- Home */
+
+.home-header {
+    text-align: center;
+    font-family: 'thewitcher';
+    color: #fafafa;
+    margin-top: 35px;
+    margin-bottom: 12px;
+}
+
+.home-text {
+    text-align: center;
+    font-family: 'Ubuntu';
+    color:#fafafa;
+    padding: 0px 20px 10px 20px;
+
+}
+
+.bottom {
+    margin-bottom: 125px;
+}
 
 /* ----------------------------------------------------- Special Margins/Texts */
 
@@ -108,5 +133,19 @@ nav {
 
 .footer-link-text:hover {
     color: #2e2c2c;
+}
+
+/* ----------------------------------------------------- Media Query's */
+
+@media (min-width: 576px) {
+    .text {
+        padding: 0px 60px 10px 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .text {
+        padding: 0px 120px 10px 120px;
+    }
 }
 
