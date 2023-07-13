@@ -46,6 +46,10 @@ nav {
 
 /* ----------------------------------------------------- Colors */
 
+body {
+    background-color: #2e2c2c;
+}
+
 .bg-main-ui {
     background-color: #2e2c2c;
 }
@@ -110,7 +114,8 @@ nav {
 }
 
 .bottom {
-    margin-bottom: 125px;
+    margin-top: 35px;
+    margin-bottom: 60px;
 }
 
 /* ----------------------------------------------------- Special Margins/Texts */
@@ -137,6 +142,13 @@ nav {
 
 /* ----------------------------------------------------- Media Query's */
 
+@media (max-width: 576px) {
+    .bottom {
+        margin-bottom: 125px;
+    }
+
+}
+
 @media (min-width: 576px) {
     .text {
         padding: 0px 60px 10px 60px;
@@ -149,3 +161,28 @@ nav {
     }
 }
 
+
+@media (min-width: 576px) {
+    .carousel-inner {
+        display: flex;
+    }
+
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/2);
+    }
+}
+    
+
+@media (min-width: 992px) {
+    
+    .carousel {
+        padding-left: 95px;
+        padding-right: 95px;
+
+    }
+    .carousel-item {
+        flex: 0 0 calc(100%/3);
+}
+}
