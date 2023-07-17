@@ -1,5 +1,5 @@
-var carouselWidth = $('.carousel-inner')[0].scrollWidth;
-var imgWidth = $('carousel-item').width();
+var carouselWidth = ('.carousel-inner')[0].scrollWidth;
+var imgWidth = ('carousel-item').width();
 
 var scrollPosition = 0;
 

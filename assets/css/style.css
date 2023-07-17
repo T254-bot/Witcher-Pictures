@@ -16,6 +16,7 @@
     font-family: 'thewitcher', sans-serif;
     font-size: 48px;
     text-decoration: underline;
+    margin-top: 12px;
 }
 
 nav {
@@ -59,6 +60,10 @@ body {
 }
 
 /* ----------------------------------------------------- Footer */
+
+footer {
+    margin-top: 25px;
+}
 
 .footer-header {
     font-family: 'thewitcher', sans-serif;
@@ -115,7 +120,7 @@ body {
 
 .bottom {
     margin-top: 35px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 /* ----------------------------------------------------- Special Margins/Texts */
@@ -144,15 +149,16 @@ body {
 
 @media (max-width: 576px) {
     .bottom {
-        margin-bottom: 125px;
+        margin-bottom: 150px;
     }
 
 }
 
 @media (min-width: 576px) {
     .text {
-        padding: 0px 60px 10px 60px;
+        padding: 0px 80px 10px 80px;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -167,19 +173,27 @@ body {
         display: flex;
     }
 
+    .carousel {
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-top: 35px;
+        margin-bottom: 50px;
+    }
     .carousel-item {
         display: block;
         margin-right: 0;
         flex: 0 0 calc(100%/2);
     }
+
 }
-    
 
 @media (min-width: 992px) {
     
     .carousel {
         padding-left: 95px;
         padding-right: 95px;
+        padding-top: 20px;
+        margin-bottom: 30px;
 
     }
     .carousel-item {
