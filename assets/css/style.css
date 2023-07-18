@@ -31,19 +31,20 @@ nav {
     margin-right: 30px;
 }
 
-.toggle-button {
-    color:#2e2c2c;
-}
-
-.nav-button {
-    padding: 0px 0px 0px 12px;
-}
-
 .bg-nav-toggle {
     width: 65px;
     background-color: #b31b10
 }
 
+.nav-button {
+    padding: 0;
+    margin-left: 10px;
+    color: #b31b10;
+}
+
+.navbar-toggler-icon {
+    color:#fafafa;
+}
 
 /* ----------------------------------------------------- Colors */
 
@@ -76,6 +77,8 @@ footer {
     color: #fafafa;
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
+    margin: 0;
+    padding-bottom: 12px;
     float: right;
     clear: both;
 }
@@ -107,7 +110,6 @@ footer {
     font-family: 'thewitcher';
     color: #fafafa;
     margin-top: 35px;
-    margin-bottom: 12px;
 }
 
 .home-text {
@@ -115,12 +117,21 @@ footer {
     font-family: 'Ubuntu';
     color:#fafafa;
     padding: 0px 20px 10px 20px;
+    margin-top: 28px;
 
 }
 
 .bottom {
     margin-top: 35px;
     margin-bottom: 80px;
+}
+
+/* ----------------------------------------------------- About */
+
+.about-img {
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 /* ----------------------------------------------------- Special Margins/Texts */
@@ -167,6 +178,7 @@ footer {
     }
 }
 
+/* ------------------------------------ Media Query's (carousel) */
 
 @media (min-width: 576px) {
     .carousel-inner {
