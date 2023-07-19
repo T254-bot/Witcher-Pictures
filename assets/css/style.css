@@ -129,7 +129,6 @@ footer {
 /* ----------------------------------------------------- About */
 
 .about-img {
-    height: 60%;
     width: 80%;
     margin-left: 10%;
 }
@@ -160,7 +159,16 @@ footer {
 
 @media (max-width: 576px) {
     .bottom {
-        margin-bottom: 150px;
+        margin-bottom: 75px;
+    }
+
+    .about-img {
+            width: 90%;
+            margin-left: 5%;
+    }
+
+    .hide-s {
+        display: none;
     }
 
 }
@@ -175,6 +183,10 @@ footer {
 @media (min-width: 992px) {
     .text {
         padding: 0px 120px 10px 120px;
+    }
+
+    .about-img {
+        height: 500px;
     }
 }
 
