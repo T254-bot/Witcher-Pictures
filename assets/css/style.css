@@ -98,7 +98,12 @@ footer {
 
 .my-email {
     font-family: 'thewitcher', sans-serif;
+    color:#2e2c2c;
     font-size: 18px;
+}
+
+.my-email:active {
+    color: #fafafa;
 }
 
 /* ----------------------------------------------------- Home */
