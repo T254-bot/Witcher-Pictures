@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'thewitcher';
-    src: url('thewitcher.woff2') format('woff2'),
-        url('thewitcher.woff') format('woff'),
-        url('thewitcher.svg#thewitcher') format('svg');
+    src: url('thewitcher.svg#thewitcher') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -125,6 +123,7 @@ footer {
     margin-top: 35px;
     margin-bottom: 80px;
 }
+
 
 /* ----------------------------------------------------- About */
 
