@@ -64,7 +64,7 @@ footer {
     margin-top: 25px;
 }
 
-.footer-header {
+.footer-email {
     font-family: 'thewitcher', sans-serif;
     color: #fafafa;
     font-size: 12px;
@@ -98,16 +98,12 @@ footer {
 
 .my-email {
     font-family: 'thewitcher', sans-serif;
-    color:#2e2c2c;
+    color:#fafafa;
     font-size: 18px;
 }
 
-.my-email:active {
-    color: #fafafa;
-}
-
 .my-email:hover {
-    color:silver;
+    color: #2e2c2c;
 }
 
 /* ----------------------------------------------------- Home */
@@ -201,9 +197,6 @@ footer {
 /* ------------------------------------ Media Query's (carousel) */
 
 @media (min-width: 576px) {
-    .carousel-inner {
-        display: flex;
-    }
 
     .carousel {
         padding-left: 75px;
@@ -211,12 +204,6 @@ footer {
         padding-top: 35px;
         margin-bottom: 50px;
     }
-    .carousel-item {
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100%/2);
-    }
-
 }
 
 @media (min-width: 992px) {
@@ -226,9 +213,5 @@ footer {
         padding-right: 95px;
         padding-top: 20px;
         margin-bottom: 30px;
-
     }
-    .carousel-item {
-        flex: 0 0 calc(100%/3);
-}
 }
