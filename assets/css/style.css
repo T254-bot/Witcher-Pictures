@@ -61,7 +61,7 @@ body {
 /* ----------------------------------------------------- Footer */
 
 footer {
-    margin-top: 25px;
+    margin-top: auto;
 }
 
 .footer-email {
@@ -112,7 +112,8 @@ footer {
     text-align: center;
     font-family: 'thewitcher';
     color: #fafafa;
-    margin-top: 35px;
+    margin-top: 40px;
+    margin-bottom: 2.4rem;
 }
 
 .home-text {
@@ -120,13 +121,18 @@ footer {
     font-family: 'Ubuntu';
     color:#fafafa;
     padding: 0px 20px 10px 20px;
-    margin-top: 28px;
+    margin-top: 1.5rem;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom {
-    margin-top: 35px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 2.8rem;
 }
 
 
@@ -162,9 +168,6 @@ footer {
 /* ----------------------------------------------------- Media Query's */
 
 @media (max-width: 576px) {
-    .bottom {
-        margin-bottom: 75px;
-    }
 
     .about-img {
             width: 90%;
@@ -180,6 +183,14 @@ footer {
 @media (min-width: 576px) {
     .text {
         padding: 0px 80px 10px 80px;
+    }
+
+    .bottom {
+        margin-bottom: 4rem;
+    }
+
+    .home-text {
+        margin-top: 2.4rem;
     }
 
 }
@@ -199,19 +210,19 @@ footer {
 @media (min-width: 576px) {
 
     .carousel {
-        padding-left: 75px;
-        padding-right: 75px;
-        padding-top: 35px;
-        margin-bottom: 50px;
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 1.7rem;
+        margin-left: 10%;
+        padding-top: 1em;
     }
 }
 
 @media (min-width: 992px) {
     
     .carousel {
-        padding-left: 95px;
-        padding-right: 95px;
-        padding-top: 20px;
-        margin-bottom: 30px;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 1em;
     }
 }
