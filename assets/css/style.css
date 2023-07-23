@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'thewitcher';
-    src: url('../fonts/Thewitcher-jmOj.ttf');
+    src: url('../fonts/Thewitcher.ttf') format("truetype");
 }
 
 /* ----------------------------------------------------- Header */
