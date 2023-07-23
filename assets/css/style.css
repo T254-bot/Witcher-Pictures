@@ -218,9 +218,8 @@ body {
 @media (min-width: 992px) {
     
     .carousel {
-        width: 75%;
-        height: auto;
-        margin-left: 12.5%;
+        width: 70%;
+        margin-left: 15%;
         padding-top: 1em;
     }
 }
