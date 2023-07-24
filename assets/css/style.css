@@ -146,6 +146,10 @@ body {
     padding: 0;
 }
 
+.witcher-font{
+    font-family: 'thewitcher';
+}
+
 .link-text {
     color: #fafafa;
     font-family: 'Ubuntu', sans-serif;
