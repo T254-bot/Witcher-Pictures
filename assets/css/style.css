@@ -93,6 +93,10 @@ footer {
     font-size: 14px;
 }
 
+.footer-link-text:hover {
+    color: #2e2c2c;
+}
+
 .my-email {
     font-family: 'thewitcher', sans-serif;
     color:#fafafa;
@@ -117,7 +121,6 @@ footer {
     text-align: center;
     font-family: 'Ubuntu';
     color:#fafafa;
-    padding: 0px 20px 10px 20px;
     margin-top: 1.5rem;
 }
 
@@ -127,17 +130,20 @@ body {
     flex-direction: column;
 }
 
-.bottom {
-    margin-top: 4rem;
-    margin-bottom: 2.8rem;
-}
-
 
 /* ----------------------------------------------------- About */
 
 .about-img {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.about-text {
+    text-align: center;
+    font-family: 'Ubuntu';
+    color:#fafafa;
+    margin-top: 2rem;
+    margin-bottom: 2.3rem;
 }
 
 /* ----------------------------------------------------- Special Margins/Texts */
@@ -148,6 +154,19 @@ body {
 
 .witcher-font{
     font-family: 'thewitcher';
+}
+
+.outline {
+    color:#fafafa;
+    -webkit-text-stroke: 1px #b31b10;
+}
+
+.text {
+    padding: 0px 20px 10px 20px;
+}
+
+.bottom {
+    margin-bottom: 2.8rem;
 }
 
 .link-text {
@@ -162,19 +181,9 @@ body {
 }
 
 
-.footer-link-text:hover {
-    color: #2e2c2c;
-}
-
 /* ----------------------------------------------------- Media Query's */
 
 @media (max-width: 576px) {
-
-    .about-img {
-            width: 90%;
-            margin-left: 5%;
-    }
-
     .hide-s {
         display: none;
     }
@@ -194,6 +203,20 @@ body {
         margin-top: 2.4rem;
     }
 
+    .about-text {
+        text-align: center;
+        font-family: 'Ubuntu';
+        color:#fafafa;
+        margin-top: 7rem;
+        margin-bottom: 1em;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .about-img {
+        width: 95%;
+        margin-top: 8rem;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -201,8 +224,18 @@ body {
         padding: 0px 120px 10px 120px;
     }
 
+    .about-text {
+        text-align: center;
+        font-family: 'Ubuntu';
+        color:#fafafa;
+        margin-top: 6.5rem;
+        padding: 0 2rem 0 2rem;
+    }
+
     .about-img {
-        height: 500px;
+        width: 80%;
+        margin-top: 4rem;
+        margin-left: 10%;
     }
 }
 
