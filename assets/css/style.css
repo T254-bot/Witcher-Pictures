@@ -152,6 +152,13 @@ body {
     padding: 50px 0 30px;
 }
 
+.gallery-header {
+    text-align: center;
+    font-family: 'thewitcher';
+    color: #fafafa;
+    margin-bottom: 1.5rem;
+}
+
 .gallery-item {
     width: 100%;
 }
