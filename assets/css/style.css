@@ -194,6 +194,18 @@ body {
     padding: 0px 20px 10px 20px;
 }
 
+.active {
+    text-decoration: underline;
+}
+
+.dis-text {
+    color:#fafafa;
+    font-family: 'thewitcher';
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .bottom {
     margin-bottom: 2.8rem;
 }
