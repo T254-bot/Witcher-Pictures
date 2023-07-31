@@ -175,6 +175,10 @@ body {
     transform: scale(1.2); 
 }
 
+#gallery-popup .modal-img {
+    width: 100%;
+}
+
 /* ----------------------------------------------------- Special Margins/Texts */
 
 .no-padding {

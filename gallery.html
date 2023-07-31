@@ -53,18 +53,18 @@
                 </div>
             </div>
         <div class="container">
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4" id="gallery" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4" id="gallery">
                 <div class="col gi-container">
-                    <img src="assets/images/A-boat-ride-with-Yen.rz-min.png" class="gallery-item zoom alt-txt" alt="A Boat ride with Yen">
+                    <img src="assets/images/A-boat-ride-with-Yen.rz-min.png" class="gallery-item zoom alt-txt" alt="A Boat ride with Yen" data-title="Title for Image 1">
                 </div>
                 <div class="col gi-container">
-                    <img src="assets/images/Beauclair-Sunset.rz-min.png" class="gallery-item zoom alt-txt" alt="Beauclair Sunset">
+                    <img src="assets/images/Beauclair-Sunset.rz-min.png" class="gallery-item zoom alt-txt" alt="Beauclair Sunset" data-title="Title for Image 2">>
                 </div>
                 <div class="col gi-container">
-                    <img src="assets/images/Berserkers-Monument.rz-min.png" class="gallery-item zoom alt-txt" alt="Berserkers Monument">
+                    <img src="assets/images/Berserkers-Monument.rz-min.png" class="gallery-item zoom alt-txt" alt="Berserkers Monument" data-title= "Title for Image 3">">
                 </div>
                 <div class="col gi-container">
-                    <img src="assets/images/First-Glimpse-of-the-Keep.rz-min.png" class="gallery-item zoom alt-txt" alt="gallery">
+                    <img src="assets/images/First-Glimpse-of-the-Keep.rz-min.png" class="gallery-item zoom alt-txt" alt="gallery" data-title="Title for Image 4">>
                 </div>
                 <div class="col gi-container">
                     <img src="assets/images/Countryside-of-Toussaint.rz-min.png" class="gallery-item zoom alt-tx" alt="gallery">
@@ -202,6 +202,25 @@
         </div>
     </section>
     <!--Gallery Modal-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="gallery-popup" tabindex="-1" aria-labelledby="gallery-popup" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="modal-img" alt="Image Preview">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <!--Disclaimer Text-->
     <section class="container-fluid">
@@ -226,5 +245,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    
+    <script src="index.js"></script>
+    
+
 </body>
 </html>
