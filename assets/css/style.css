@@ -175,8 +175,75 @@ body {
     transform: scale(1.2); 
 }
 
+/* ------------------------------------ Gallery Modal */
 #gallery-popup .modal-img {
     width: 100%;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    background-color: #272525;
+}
+
+.modal-header {
+    height: 0.8rem;
+    font-family: 'Ubuntu';
+    color: #fafafa;
+    border: none;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-x-btn {
+    background: none;
+    border: 0;
+    font-size: 2rem;
+    color:#b31b10;
+}
+
+.modal-x-btn:hover {
+    color:#fafafa;
+    -webkit-text-stroke: 1.5px #b31b10;
+}
+
+.modal-footer {
+    height: 3.2rem;
+    padding: 0 0.5rem 0 0;
+    border: none;
+}
+
+.modal-close-btn {
+    background-color: #413d3d;
+    color: #b31b10;;
+    border: solid;
+    padding: 0.4rem 0.6rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.modal-close-btn:hover {
+    color:#fafafa;
+}
+
+.modal-download-btn {
+    background-color: #b31b10;
+    color: #fafafa;
+    border: none;
+    padding: 0.4rem 0.6rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.modal-download-btn:hover {
+    background-color: #fafafa;
+    color: #b31b10;
+}
+
+.modal-body {
+    padding:0 0.4rem 0 0.4rem;
 }
 
 /* ----------------------------------------------------- Special Margins/Texts */
@@ -197,6 +264,7 @@ body {
 .text {
     padding: 0px 20px 10px 20px;
 }
+
 
 .active {
     text-decoration: underline;
@@ -275,6 +343,10 @@ body {
 @media (min-width: 992px) {
     .text {
         padding: 0px 120px 10px 120px;
+    }
+
+    .modal-div {
+        width: 80%;
     }
 
     .about-text {
