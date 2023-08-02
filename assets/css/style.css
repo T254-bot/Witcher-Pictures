@@ -55,6 +55,10 @@ body {
     background-color: #b31b10;
 }
 
+.modal-header, .modal-body, .modal-footer {
+    background-color: #272525;
+}
+
 /* ----------------------------------------------------- Footer */
 
 footer {
@@ -180,10 +184,6 @@ body {
     width: 100%;
 }
 
-.modal-header, .modal-body, .modal-footer {
-    background-color: #272525;
-}
-
 .modal-header {
     height: 0.8rem;
     font-family: 'Ubuntu';
@@ -299,6 +299,7 @@ body {
 
 
 /* ----------------------------------------------------- Media Query's */
+
 
 @media (max-width: 576px) {
     .hide-s {
