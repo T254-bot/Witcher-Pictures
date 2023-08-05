@@ -55,6 +55,13 @@ Below you will find a list of the features currently found on the site, and also
 
 # Deployment
 
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * From this project's repository, navigate to the settings tab
+    * From the left hand menu, select pages.
+    * From the source section drop-down menu, select the Main Branch.
+    * Once the main branch has been selected, the page will refresh and provide a link to the live project.
+The live link can be found here - https://davidcalikes.github.io/portfolio-project-one/index.html
+
 # Credits
 
 
