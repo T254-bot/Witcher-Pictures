@@ -1,14 +1,16 @@
 # Table of Content
-1. Site Overview
-2. Planning
-    * Target Audiences
-    * User Stories
-    * Color Scheme
-    * Wireframes
-3. Features
-4. Testing
-5. Deployment
-6. Credits
+1. [Site Overview](#site-overview)
+2. [Planning](#planning)
+    * [Target Audiences](#target-audiences)
+    * [User Stories](#user-stories)
+    * [Color Scheme](#color-scheme)
+    * [Wireframes](#wireframes)
+3. [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Future Updates](#future-updates)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
 
 
 # Site Overview 
@@ -81,9 +83,13 @@ Below you will find a list of the features currently found on the site, and also
 
 ### Gallery:
 
+### Modal:
+
 ### Footer:
 
-* The footer is fully responsive and uniform across all three pages of the site.
+* The footer is fully responsive and found on all three pages of the site.
+
+* Whilst content slightly varies on one page, the color scheme and styling remain uniform across all three pages.
 
 * This contains links to the game devs website as well as the witcher fandom page in mobile view on the Home and About pages, for users who wish to learn a lot more about the franchise.
 
@@ -100,8 +106,6 @@ Below you will find a list of the features currently found on the site, and also
     * From the left hand menu, select pages.
     * From the source section drop-down menu, select the Main Branch.
     * Once the main branch has been selected, the page will refresh and provide a link to the live project.
-The live link can be found here - https://davidcalikes.github.io/portfolio-project-one/index.html
+The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 
 # Credits
-
-
