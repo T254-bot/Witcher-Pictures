@@ -35,21 +35,61 @@ Here are my wireframes that I created at the start of my project and used as the
 
 
 * The first big difference between the wireframe and finished product is the carousel on the home page, which i initially planned on being a row of several images that all slide to the left in synch with one another and reacted responsively (two images of mobile and tablet, three on desktop).
+
 * The second change being made to the about page which I decided to reformat slightly so as to not be almost identical to the home page of the site. I decided to add another image in to both add more content to the page and assist in achieving a more noticeably responsive design, aswell as breaking text up more evenly so as to not bombard the user with one massive paragraph of text.
+
 * The final big change I would like to point out is the columns of images on the gallery page on tablet was initially going to be two, the same as mobile just with more spacing between the images. the reason I changed this to three columns was partly to show more noticeable responsiveness along with the fact I liked it more than my original design once I had done it, however it was mostly because I found I would need either a visually unappealing amount of spacing between images or have the images be larger to fill in the spaces which caused issues with the image dimensions on the right hand side.
+
 * Finally I would just like to mention a few small differences. That positioning of the nav toggle icon changed simply because I struggled to move it to the right hand side of the display, and when looking and testing it myself aswell as other people, I found no reason to keep trying as it worked as intended and I liked it just as much. The positioning of nav elements in tablet and desktop changed as a spur of the moment decision. And lastly I scrapped the button at the bottom of the home page to navigate to the gallery page, in favour of a sticky top nav.
 
 # Features
 
 Below you will find a list of the features currently found on the site, and also a few features I am planning on adding in the future.
 
-## Nav:
+## Existing Features:
 
-## Carousel:
+### Nav:
+* Navigation Bar
 
-## Gallery:
+    * The navigation bar is fully responsive and uniform across all three pages of the site.
 
-## Footer:
+    * The section includes links to the Home, Media and About.
+
+    * Each navigation link has a hover feature providing visual feedback for the user. Each page has a separate active link which provides the user instant feedback regarding their location on the site.
+
+
+
+* Sticky Navigation Menu
+
+    * The Sticky Navigation Menu sticks to a fixed position at the top of the screen when a user scrolls below the navigation section.
+
+    * This feature allows users to access any pages of the site without the requirement of scrolling back to the top of the page.
+
+    * The Sticky Navigation Menu takes up very little screen space and therefore doesn't obstruct any of the site's content.
+
+    * This feature is intuitively designed with a recognisable 'burger' style icon and is easily accessible for the user
+
+### Carousel:
+    
+* The Carousel is fully responsive and is found only on the Home page.
+
+* It allows users to have a preview on the type of images the site is built to showcase
+
+* Rather than a controllable sliding carousel, I went with a automated fade transition as I found it to be more visually appealing aswell as preventing the user rushing through the images.
+
+    * This type of carousel replaced my original idea (found in the wirfeframes section of this Readme). The reason I made the change as it required javascript to run when using the flex function to change the carousel to two and three images depending on screen size. As i have not learned any Js, when talking to my mentor he advised me to try something else as it would be alot of time and effort to get it to work predictably, that would be better spent on other parts of my website.
+
+### Gallery:
+
+### Footer:
+
+* The footer is fully responsive and uniform across all three pages of the site.
+
+* This contains links to the game devs website as well as the witcher fandom page in mobile view on the Home and About pages, for users who wish to learn a lot more about the franchise.
+
+* In tablet and desktop aswell as being present on all screen sizes on the Gallery page, this section also contains a link to an email where users can send any images from the game that they would like to share and have  featured on the site.
+
+## Future Updates:
 
 # Testing
 
