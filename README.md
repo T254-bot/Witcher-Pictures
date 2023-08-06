@@ -69,7 +69,7 @@ Below you will find a list of the features currently found on the site, and also
 
     * The Sticky Navigation Menu takes up very little screen space and therefore doesn't obstruct any of the site's content.
 
-    * This feature is intuitively designed with a recognisable 'burger' style icon and is easily accessible for the user
+    * This feature is intuitively designed with a recognisable 'burger' style icon when on a mobile device and is easily accessible for the user
 
 ### Carousel:
     
@@ -83,7 +83,24 @@ Below you will find a list of the features currently found on the site, and also
 
 ### Gallery:
 
+* The gallery page features a fully responsive image gallery utilizing bootstrap 5's grid system.
+
+* Each image has a zoom hover effect to provide the user with visual feedback so they know they are selecting the desired image.
+
+* The image gallery has two columns on mobile with minimal spacing to allow the image as much real estate on the screen as possible so that users easily see what images they like.
+
+* And then on tablet the image gallery expands to three columns, and four on desktop each with much more spacing between images so that the user can clearly see each image aswell as to allow for the zoom hover effect without blocking surrounding images to much.
+
+
 ### Modal:
+
+* The modal is found on the gallery page upon clicking any of the images in the gallery.
+
+* The modal is completely responsive, meaning there is one modal thats content and title will change depending on what image the user clicks. This is achieved using a small amount of javascript.
+
+* I kept the basic structure of Bootstrap's default modal, giving users plenty of options to exit the modal and continue scrolling through the gallery. This being a close button below the image, an X in the top right corner of the modal, which I kept as it is very accessible and recognizable to have in that location. And also allows the user to click outside of the modal to close the modal and continue looking at other images.
+
+* The main feature of the modal itself is the download button,styled to conform with the rest of the sites styling aswell as stand out, found below the image which allows the user to download the image they have selected and that has presented itself within the modal to their own devices. This is also done using javascript.
 
 ### Footer:
 
@@ -96,6 +113,14 @@ Below you will find a list of the features currently found on the site, and also
 * In tablet and desktop aswell as being present on all screen sizes on the Gallery page, this section also contains a link to an email where users can send any images from the game that they would like to share and have  featured on the site.
 
 ## Future Updates:
+
+I plan on continuing to work on this site and improving and expanding on the type content found. But for now I will list down below the more immediate plans I currently have to enhance not just the content, but the user experience as a whole.
+
+### Scrolling through the gallery within the Modal
+
+### downloading images as 4k files
+
+### Styling of background and certain texts
 
 # Testing
 
