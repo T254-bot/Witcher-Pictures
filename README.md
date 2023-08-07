@@ -141,4 +141,15 @@ The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 
 # Credits
 
+* I was able to find The Witcher font, by JoannaVu, from Font Space :https://www.fontspace.com/category/the-witcher
+
+* The home page carousel template used is from Bootstrap's documentation, my mentor Rich then helped me with using more of Bootstraps pre-set style rules
+
+* The gallery template I followed came from a tutorial by Theweb Shala via Youtube 
+
+* The nav template, aswell as the zoom effect used for the gallery images, came from the w3c schools
+
+* I used [Imageresizer.com](https://imageresizer.com) to resize all of my images and [Optimizilla](https://imagecompressor.com) 
+
+* I learnt how to outline text from Kevin Powell vie Youtube
 
