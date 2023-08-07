@@ -122,9 +122,11 @@ One of the first things I plan on adding at a later stage is the ability to scro
 
 ### downloading images as 4k files
 
-
+Another feature I plan on adding soon, is downloading the the original 4k versions of the images rather than the resized and compressed images used on the site. I want to do this so that users are able to get as much from the site as they can and are more likely to return. The reason this has been left as a future update is simply so that I could continue with other parts of the site to ensure it was finished on time.
 
 ### Styling of background and certain texts
+
+Further down the line, when my knowledge of css and general web development has grown, I plan on making many styling changes to the site. Some I already have good ideas on what i want to change and lots I plan on thinking more about and learning what is possible to do, and then make more concrete decisions for how I can change it to enhance the user experience. With all that being said I am very happy with the site's current styling, I just have had several ideas during development and thought it worth mentioning in this section. 
 
 # Testing
 
@@ -138,3 +140,5 @@ One of the first things I plan on adding at a later stage is the ability to scro
 The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 
 # Credits
+
+
