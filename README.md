@@ -116,9 +116,13 @@ Below you will find a list of the features currently found on the site, and also
 
 I plan on continuing to work on this site and improving and expanding on the type content found. But for now I will list down below the more immediate plans I currently have to enhance not just the content, but the user experience as a whole.
 
-### Scrolling through the gallery within the Modal
+### Scrolling through the gallery within Modal
+
+One of the first things I plan on adding at a later stage is the ability to scroll/swipe through all images that are in the gallery from within the modal. Doing so responsively, meaning that when you scroll forwards the next image will be the one on the right of the image previously selected and displayed in the modal, and the image to left when scrolling back. This has come from a two of the people I have had testing the site throughout development asking if it was a feature I'm planning on adding. As they stated whilst it was in no way a bad thing the site was lacking it, they thought navigating through the gallery and selecting an image easier. The other 5 didn't mention it and when asked said they didn't think it needed to be added, but would be a good addition.
 
 ### downloading images as 4k files
+
+
 
 ### Styling of background and certain texts
 
