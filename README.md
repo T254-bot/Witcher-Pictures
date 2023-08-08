@@ -22,7 +22,20 @@ Witcher Pictures is a site dedicated to showcasing photography from the award wi
 * Users who are dedicated fans of the franchise and game looking for unique, visually appealing backgrounds of landscapes and set pieces they will recognize, taken within the game.
 * Users who have some knowledge of the franchise and are interested about the game.
 * Users who have little to no knowledge about the franchise or video games in general and are interested in learning about it aswell as seeing how visually impressive a video game can be.
+
 ## User Stories:
+
+* A user has found themselves on the site while searching for another witcher related website.
+    * They will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
+
+* A user familiar with The Witcher netflix series has found and entered the site expecting to see pictures from the show.
+    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to know more about the game series they previously knew nothing about. From that point they can find the About section via the sticky navigation menu that will always be displayed to the user. Or if they read the footer content they can be directed to the witcher fandom page for more information.
+
+* A user is searching for a new screensaver for their laptop/pc and finds this site.
+    * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
+
+* A user familiar with the franchise and game has found the site and has images of their own they would like to share.
+    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery, the user finds the footer below, which contains an email address thats clear purpose is for users to send their own images for use on the site.
 
 
 ## Color Scheme:
@@ -149,7 +162,7 @@ The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 
 * The nav template, aswell as the zoom effect used for the gallery images, came from the w3c schools
 
-* I used [Imageresizer.com](https://imageresizer.com) to resize all of my images and [Optimizilla](https://imagecompressor.com) 
+* I used [Imageresizer.com](https://imageresizer.com) to resize all of my images and [Optimizilla](https://imagecompressor.com) to compress my images
 
 * I learnt how to outline text from Kevin Powell vie Youtube
 
