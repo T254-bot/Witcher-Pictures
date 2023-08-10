@@ -117,15 +117,15 @@ Below you will find a list of the features currently found on the site, and also
 
 I plan on continuing to work on this site and improving and expanding on the type content found. But for now I will list down below the more immediate plans I currently have to enhance not just the content, but the user experience as a whole.
 
-### Scrolling through the gallery within Modal
+### Scrolling through the gallery within Modal:
 
 One of the first things I plan on adding at a later stage is the ability to scroll/swipe through all images that are in the gallery from within the modal. Doing so responsively, meaning that when you scroll forwards the next image will be the one on the right of the image previously selected and displayed in the modal, and the image to left when scrolling back. This has come from a two of the people I have had testing the site throughout development asking if it was a feature I'm planning on adding. As they stated whilst it was in no way a bad thing the site was lacking it, they thought navigating through the gallery and selecting an image easier. The other 5 didn't mention it and when asked said they didn't think it needed to be added, but would be a good addition.
 
-### downloading images as 4k files
+### downloading images as 4k files:
 
 Another feature I plan on adding soon, is downloading the the original 4k versions of the images rather than the resized and compressed images used on the site. I want to do this so that users are able to get as much from the site as they can and are more likely to return. The reason this has been left as a future update is simply so that I could continue with other parts of the site to ensure it was finished on time.
 
-### Styling of background and certain texts
+### Styling of background and certain texts:
 
 Further down the line, when my knowledge of css and general web development has grown, I plan on making many styling changes to the site. Some I already have good ideas on what i want to change and lots I plan on thinking more about and learning what is possible to do, and then make more concrete decisions for how I can change it to enhance the user experience. With all that being said I am very happy with the site's current styling, I just have had several ideas during development and thought it worth mentioning in this section. 
 
@@ -152,7 +152,7 @@ I began testing the responsiveness of the site firstly by switching through diff
 * Samsung Internet (Android)
 * Safari 
 
-I tested this website via live server constantly during development. Using developer tools to make sure all features I included worked at all breakpoints, both before and after it was deployed to github. Once I got the website to a stage I was happy to submit it as my milestone project, I began going through every feature across every site again. Checking not only that every feature worked, but also that the styling didn't break at any point and also that links sent the user to the correct address in a new tab, and the email link sends them to their email (assuming they have an app installed or alternatively that they are logged in, within the browser). I first tested the site on my laptop, going over every part of the site outlined previously at least three time. I then tested it on my mobile phone focusing more on the styling. Finally I used a tablet to go over everything again. Other than the issue with the footer text on skinnier screens, mentioned above the device list, my testing was very successful. The sites styling aswell as all features responded as expected to the browser window being minimized and enlarged using the responsive sliders in dev tools, aswell as at all preset screen sizes.
+I tested this website via live server constantly during development. Using developer tools to make sure all features I included worked at all breakpoints, both before and after it was deployed to github. Once I got the website to a stage I was happy to submit it as my milestone project, I began going through every feature across every site again. Checking not only that every feature worked, but also that the styling didn't break at any point and also that links sent the user to the correct address in a new tab, and the email link sends them to their email (assuming they have an app installed or alternatively that they are logged in, within the browser). I first tested the site on my laptop, going over the whole site with the testing procedures outlined in the testing section of this file at least three times. I then tested it on my mobile phone focusing more on the styling. Finally I used a tablet to go over everything again. Other than the issue with the footer text on skinnier screens, mentioned above the device list, my testing was very successful. The sites styling aswell as all features responded as expected to the browser window being minimized and enlarged using the responsive sliders in dev tools, aswell as at all preset screen sizes.
 
 The devices in the devices used list above marked with  ^  are the main devices used during testing, the rest are various friends and family members who have used the site.
 
