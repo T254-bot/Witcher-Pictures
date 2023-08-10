@@ -12,6 +12,7 @@
     * [Responsiveness](#responsiveness-testing)
     * [Validator Results](#validator-results)
     * [Functionality](#functionality-testing)
+    * [Bug Report](#bug-report)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
 
@@ -174,7 +175,15 @@ The devices in the devices used list above marked with  ^  are the main devices 
 
 ## Functionality Testing:
 
-When testing the functionality of all the sites features I started with the features found across all pages of the site. Beginning with the nav I went from home to gallery and back, home to about and back, and finally from gallery to about and back and had no problems during this process. I then used my phone to view the site in mobile view and repeated the process, in doing so also testing the nav toggle icon that is used in the mobile layout of the site and that was all also successful. Moving on to the footer, I tested both links by clicking them and making sure they opened in a new browser tab and took me to the correct site on all three pages. When testing the email link I checked not only that clicking the link text would take the user to their email app or account (I logged out of the app and opened my inbox in a browser tab to test this also worked), but also that the correct email address would be auto filled in the recipient field in a new draft. Now for the home page I simply watched the carousel cycle through several times, making sure all images appeared and titles where correct, animation was smooth and would keep repeating until the user clicks off of the page. I then used my phone to open the home page in mobile view and check that the titles disappeared. Finally with the gallery at first I scrolled through all the images to make sure all had loaded, then going over all of them with the mouse to check the animation for desktop was working. Then I clicked on at least one image per row and viewed the modal, checking not only that all styling was as expected and all elements had rendered, but also that the images themselves and titles would change immediately and correctly aswell as varying the method I would close the modal between the three options the user is presented with. Each time I went on the modal I would download the image using the download button and tested that worked for all Images in the gallery. 
+* When testing the functionality of all the sites features I started with the features found across all pages of the site. Beginning with the nav I went from home to gallery and back, home to about and back, and finally from gallery to about and back and had no problems during this process. I then used my phone to view the site in mobile view and repeated the process, in doing so also testing the nav toggle icon that is used in the mobile layout of the site and that was all also successful. 
+
+* Then for the footer, I tested both links by clicking them and making sure they opened in a new browser tab and took me to the correct site on all three pages. When testing the email link I checked not only that clicking the link text would take the user to their email app or account (I logged out of the app and opened my inbox in a browser tab to test this also worked), but also that the correct email address would be auto filled in the recipient field in a new draft.
+
+* For the home page I simply watched the carousel cycle through several times, making sure all images appeared and titles where correct, animation was smooth and would keep repeating until the user clicks off of the page. I then used my phone to open the home page in mobile view and check that the titles disappeared. Finally with the gallery at first I scrolled through all the images to make sure all had loaded, then going over all of them with the mouse to check the animation for desktop was working. 
+
+* Then I clicked on at least one image per row and viewed the modal, checking not only that all styling was as expected and all elements had rendered, but also that the images themselves and titles would change immediately and correctly aswell as varying the method I would close the modal between the three options the user is presented with. Each time I went on the modal I would download the image using the download button and tested that worked for all Images in the gallery. 
+
+## Bug Report:
 
 # Deployment
 
@@ -192,6 +201,8 @@ The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 * The home page carousel template used is from Bootstrap's documentation, my mentor Rich then helped me with using more of Bootstraps pre-set style rules
 
 * The gallery template I followed came from a tutorial by Theweb Shala via Youtube 
+
+* Javascript supplied by chatGPT
 
 * The nav template, aswell as the zoom effect used for the gallery images, came from the w3c schools
 
