@@ -1,6 +1,7 @@
 # Table of Content
 1. [Site Overview](#site-overview)
 2. [Planning](#planning)
+    * [User Stories](#user-stories)
     * [Target Audiences](#target-audiences)
     * [Color Scheme](#color-scheme)
     * [Wireframes](#wireframes)
@@ -11,7 +12,6 @@
     * [Responsiveness](#responsiveness-testing)
     * [Validator Results](#validator-results)
     * [Functionality](#functionality-testing)
-    * [User Stories](#user-stories)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
 
@@ -20,6 +20,20 @@
 Witcher Pictures is a site dedicated to showcasing photography from the award winning video game Witcher 3 the Wild Hunt. The Witcher is an immensely popular franchise wether it be fans of the books, games or more recently from the Netflix series. There are many fans like myself who have sunk dozens of hours into this game and still to this day find things they have never seen before, or are simply blown away by the attention to detail and high quality textures used throughout the landscapes and interiors of the open world. Yet despite that I rarely come across any images that really capture the beauty of this game, sure there are some out there, but what I have found tends to be a lot of the same images, with any being unique or actually from the within game being few and far between. This site looks to change that by hosting a large number of images all in one, easy to navigate site, where users are able to look through and download any they like and use them themselves with just a few taps of their screen.
 
 # Planning 
+
+## User Stories:
+
+* A user has found themselves on the site while searching for another witcher related website.
+    * They will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
+
+* A user familiar with The Witcher netflix series has found and entered the site expecting to see pictures from the show.
+    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to know more about the game series they previously knew nothing about. From that point they can find the About section via the sticky navigation menu that will always be displayed to the user. Or if they read the footer content they can be directed to the witcher fandom page for more information.
+
+* A user is searching for a new screensaver for their laptop/pc and finds this site.
+    * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
+
+* A user familiar with the franchise and game has found the site and has images of their own they would like to share.
+    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery, the user finds the footer below, which contains an email address thats clear purpose is for users to send their own images for use on the site.
 
 ## Target Audiences:
 * Users who are dedicated fans of the franchise and game looking for unique, visually appealing backgrounds of landscapes and set pieces they will recognize, taken within the game.
@@ -161,22 +175,6 @@ The devices in the devices used list above marked with  ^  are the main devices 
 ## Functionality Testing:
 
 When testing the functionality of all the sites features I started with the features found across all pages of the site. Beginning with the nav I went from home to gallery and back, home to about and back, and finally from gallery to about and back and had no problems during this process. I then used my phone to view the site in mobile view and repeated the process, in doing so also testing the nav toggle icon that is used in the mobile layout of the site and that was all also successful. Moving on to the footer, I tested both links by clicking them and making sure they opened in a new browser tab and took me to the correct site on all three pages. When testing the email link I checked not only that clicking the link text would take the user to their email app or account (I logged out of the app and opened my inbox in a browser tab to test this also worked), but also that the correct email address would be auto filled in the recipient field in a new draft. Now for the home page I simply watched the carousel cycle through several times, making sure all images appeared and titles where correct, animation was smooth and would keep repeating until the user clicks off of the page. I then used my phone to open the home page in mobile view and check that the titles disappeared. Finally with the gallery at first I scrolled through all the images to make sure all had loaded, then going over all of them with the mouse to check the animation for desktop was working. Then I clicked on at least one image per row and viewed the modal, checking not only that all styling was as expected and all elements had rendered, but also that the images themselves and titles would change immediately and correctly aswell as varying the method I would close the modal between the three options the user is presented with. Each time I went on the modal I would download the image using the download button and tested that worked for all Images in the gallery. 
-
-
-## User Stories:
-
-* A user has found themselves on the site while searching for another witcher related website.
-    * They will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
-
-* A user familiar with The Witcher netflix series has found and entered the site expecting to see pictures from the show.
-    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to know more about the game series they previously knew nothing about. From that point they can find the About section via the sticky navigation menu that will always be displayed to the user. Or if they read the footer content they can be directed to the witcher fandom page for more information.
-
-* A user is searching for a new screensaver for their laptop/pc and finds this site.
-    * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
-
-* A user familiar with the franchise and game has found the site and has images of their own they would like to share.
-    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery, the user finds the footer below, which contains an email address thats clear purpose is for users to send their own images for use on the site.
-
 
 # Deployment
 
