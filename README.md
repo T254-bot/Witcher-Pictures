@@ -2,13 +2,16 @@
 1. [Site Overview](#site-overview)
 2. [Planning](#planning)
     * [Target Audiences](#target-audiences)
-    * [User Stories](#user-stories)
     * [Color Scheme](#color-scheme)
     * [Wireframes](#wireframes)
 3. [Features](#features)
     * [Existing Features](#existing-features)
     * [Future Updates](#future-updates)
 4. [Testing](#testing)
+    * [Responsiveness](#responsiveness-testing)
+    * [Validator Results](#validator-results)
+    * [Functionality](#functionality-testing)
+    * [User Stories](#user-stories)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
 
@@ -22,21 +25,6 @@ Witcher Pictures is a site dedicated to showcasing photography from the award wi
 * Users who are dedicated fans of the franchise and game looking for unique, visually appealing backgrounds of landscapes and set pieces they will recognize, taken within the game.
 * Users who have some knowledge of the franchise and are interested about the game.
 * Users who have little to no knowledge about the franchise or video games in general and are interested in learning about it aswell as seeing how visually impressive a video game can be.
-
-## User Stories:
-
-* A user has found themselves on the site while searching for another witcher related website.
-    * They will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
-
-* A user familiar with The Witcher netflix series has found and entered the site expecting to see pictures from the show.
-    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to know more about the game series they previously knew nothing about. From that point they can find the About section via the sticky navigation menu that will always be displayed to the user. Or if they read the footer content they can be directed to the witcher fandom page for more information.
-
-* A user is searching for a new screensaver for their laptop/pc and finds this site.
-    * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
-
-* A user familiar with the franchise and game has found the site and has images of their own they would like to share.
-    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery, the user finds the footer below, which contains an email address thats clear purpose is for users to send their own images for use on the site.
-
 
 ## Color Scheme:
 
@@ -143,11 +131,11 @@ Further down the line, when my knowledge of css and general web development has 
 
 # Testing
 
-## Responsiveness
+## Responsiveness Testing:
 
-I began testing the responsiveness of the site firstly by switching through different device screen sizes using developer tools on google chrome on each page and using every feature at each main breakpoint. Below you will find a screenshot of the full list of the device screen sizes used. After discovering an issue with the styling of the footer text breaking on the samsung s8 screen, I went on microsoft edge dev tools and used the responsive sliders to pinpoint the breakpoint where the issue appears. I then adjusted the text and font-size which fixed the issue. 
+I began testing the responsiveness of the site firstly by switching through different device screen sizes using developer tools on google chrome on each page and using every feature at each main breakpoint. Below you will find a screenshot of the full list of the device screen sizes used. After discovering an issue with the styling of the footer text breaking on the samsung s8 screen, I went on dev tools and used the responsive sliders to pinpoint the breakpoint where the issue appears. I then adjusted the text and font-size which fixed the issue. 
 
-I have tried to test the website on as many devices as I can, however, I don't have access to many. here I will include a list of all the devices that I have been to use to test the site:
+### I have tried to test the website on as many devices as I can, however, I don't have access to many. here I will include a list of all the devices that I have been to use to test the site:
 * ASUS Zenbook Duo 14 ^
 * Samsung S20 ultra ^
 * Samsung A51
@@ -156,8 +144,7 @@ I have tried to test the website on as many devices as I can, however, I don't h
 * IPad Air (4th gen) ^
 
 
-
-Here is a list of the different browsers I have tested the website on:
+### Here is a list of the different browsers I have tested the website on:
 * Opera/Opera GX
 * Google Chrome
 * Microsoft Edge
@@ -165,18 +152,30 @@ Here is a list of the different browsers I have tested the website on:
 * Samsung Internet (Android)
 * Safari 
 
-I tested this website via live server constantly during development. Using developer tools to make sure all features I included worked at all breakpoints, both before and after it was deployed to github. Once I got the website to a stage I was happy to submit it as my milestone project, I began going through every feature across every site again. Checking not only that every feature worked, but also that the styling didn't break at any point and also that links sent the user to the correct address in a new tab, and the email link sends them to their email (assuming they have an app installed or alternatively that they are logged in, within the browser). I first tested the site on my laptop, going over every part of the site outlined previously at least three time. I then tested it on my mobile phone focusing more on the styling. Finally I used a tablet to go over everything again.
+I tested this website via live server constantly during development. Using developer tools to make sure all features I included worked at all breakpoints, both before and after it was deployed to github. Once I got the website to a stage I was happy to submit it as my milestone project, I began going through every feature across every site again. Checking not only that every feature worked, but also that the styling didn't break at any point and also that links sent the user to the correct address in a new tab, and the email link sends them to their email (assuming they have an app installed or alternatively that they are logged in, within the browser). I first tested the site on my laptop, going over every part of the site outlined previously at least three time. I then tested it on my mobile phone focusing more on the styling. Finally I used a tablet to go over everything again. Other than the issue with the footer text on skinnier screens, mentioned above the device list, my testing was very successful. The sites styling aswell as all features responded as expected to the browser window being minimized and enlarged using the responsive sliders in dev tools, aswell as at all preset screen sizes.
 
 The devices in the devices used list above marked with  ^  are the main devices used during testing, the rest are various friends and family members who have used the site.
 
 ## Validator results
 
-## Functionality
+## Functionality Testing:
+
+When testing the functionality of all the sites features I started with the features found across all pages of the site. Beginning with the nav I went from home to gallery and back, home to about and back, and finally from gallery to about and back and had no problems during this process. I then used my phone to view the site in mobile view and repeated the process, in doing so also testing the nav toggle icon that is used in the mobile layout of the site and that was all also successful. Moving on to the footer, I tested both links by clicking them and making sure they opened in a new browser tab and took me to the correct site on all three pages. When testing the email link I checked not only that clicking the link text would take the user to their email app or account (I logged out of the app and opened my inbox in a browser tab to test this also worked), but also that the correct email address would be auto filled in the recipient field in a new draft. Now for the home page I simply watched the carousel cycle through several times, making sure all images appeared and titles where correct, animation was smooth and would keep repeating until the user clicks off of the page. I then used my phone to open the home page in mobile view and check that the titles disappeared. Finally with the gallery at first I scrolled through all the images to make sure all had loaded, then going over all of them with the mouse to check the animation for desktop was working. Then I clicked on at least one image per row and viewed the modal, checking not only that all styling was as expected and all elements had rendered, but also that the images themselves and titles would change immediately and correctly aswell as varying the method I would close the modal between the three options the user is presented with. Each time I went on the modal I would download the image using the download button and tested that worked for all Images in the gallery. 
 
 
+## User Stories:
 
+* A user has found themselves on the site while searching for another witcher related website.
+    * They will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
 
+* A user familiar with The Witcher netflix series has found and entered the site expecting to see pictures from the show.
+    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to know more about the game series they previously knew nothing about. From that point they can find the About section via the sticky navigation menu that will always be displayed to the user. Or if they read the footer content they can be directed to the witcher fandom page for more information.
 
+* A user is searching for a new screensaver for their laptop/pc and finds this site.
+    * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
+
+* A user familiar with the franchise and game has found the site and has images of their own they would like to share.
+    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery, the user finds the footer below, which contains an email address thats clear purpose is for users to send their own images for use on the site.
 
 
 # Deployment
