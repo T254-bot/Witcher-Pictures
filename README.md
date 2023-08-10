@@ -46,7 +46,7 @@ Below is a grid that I have used to check the contrast scores so as to be sure a
 
 ## Wireframes:
 
-Here are my wireframes that I created at the start of my project and used as the rough template for my site, for mobile, tablet and desktop viewing. Below them you will find a list detailing how the design has changed as the development process was going on. More information on why these changes where made will be found in ******* section of this file.
+Here are my wireframes that I created at the start of my project and used as the rough template for my site, for mobile, tablet and desktop viewing. Below them you will find a list detailing how the design has changed as the development process was going on. More information on why these changes where made will be found below.
 
 
 * The first big difference between the wireframe and finished product is the carousel on the home page, which i initially planned on being a row of several images that all slide to the left in synch with one another and reacted responsively (two images of mobile and tablet, three on desktop).
@@ -148,22 +148,22 @@ Further down the line, when my knowledge of css and general web development has 
 I began testing the responsiveness of the site firstly by switching through different device screen sizes using developer tools on google chrome on each page and using every feature at each main breakpoint. Below you will find a screenshot of the full list of the device screen sizes used. After discovering an issue with the styling of the footer text breaking on the samsung s8 screen, I went on microsoft edge dev tools and used the responsive sliders to pinpoint the breakpoint where the issue appears. I then adjusted the text and font-size which fixed the issue. 
 
 I have tried to test the website on as many devices as I can, however, I don't have access to many. here I will include a list of all the devices that I have been to use to test the site:
-    * ASUS Zenbook Duo 14 ^
-    * Samsung S20 ultra ^
-    * Samsung A51
-    * IPhone 14
-    * IPhone 12
-    * IPad Air (4th gen) ^
+* ASUS Zenbook Duo 14 ^
+* Samsung S20 ultra ^
+* Samsung A51
+* IPhone 14
+* IPhone 12
+* IPad Air (4th gen) ^
 
 
 
 Here is a list of the different browsers I have tested the website on:
-    * Opera/Opera GX
-    * Google Chrome
-    * Microsoft Edge
-    * Mozilla Firefox
-    * Samsung Internet (Android)
-    * Safari 
+* Opera/Opera GX
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+* Samsung Internet (Android)
+* Safari 
 
 I tested this website via live server constantly during development. Using developer tools to make sure all features I included worked at all breakpoints, both before and after it was deployed to github. Once I got the website to a stage I was happy to submit it as my milestone project, I began going through every feature across every site again. Checking not only that every feature worked, but also that the styling didn't break at any point and also that links sent the user to the correct address in a new tab, and the email link sends them to their email (assuming they have an app installed or alternatively that they are logged in, within the browser). I first tested the site on my laptop, going over every part of the site outlined previously at least three time. I then tested it on my mobile phone focusing more on the styling. Finally I used a tablet to go over everything again.
 
