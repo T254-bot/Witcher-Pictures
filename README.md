@@ -24,17 +24,20 @@ Witcher Pictures is a site dedicated to showcasing photography from the award wi
 
 ## User Stories:
 
-* A user has found themselves on the site while searching for another witcher related website.
-    * They will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
+* As a user I want to understand the sites purpose.
+    * When they enter the site the user will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
 
-* A user familiar with The Witcher netflix series has found and entered the site expecting to see pictures from the show.
-    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to know more about the game series they previously knew nothing about. From that point they can find the About section via the sticky navigation menu that will always be displayed to the user. Or if they read the footer content they can be directed to the witcher fandom page for more information.
+* As a user I want to see images from The Witcher 3.
+    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to view all of the images the site has. From there they will navigate over to the gallery via the nav-link text, which they are able to find no matter how far they've scrolled thanks to the sticky nav used across the site. When on the gallery page, the user is able to bring the images up in a modal to get a better look at any of the images on the page.
 
-* A user is searching for a new screensaver for their laptop/pc and finds this site.
+* As a user I want to be able to download the images easily.
     * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
 
-* A user familiar with the franchise and game has found the site and has images of their own they would like to share.
-    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery, the user finds the footer below, which contains an email address thats clear purpose is for users to send their own images for use on the site.
+* As a user I want to be able to send my images from my local e-mail client.
+    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery the user finds the footer below, which while being hidden on the home and about pages in mobile view to avoid a large clunky footer degrading the appearance of the site, on the gallery page the footer contains an email address thats clear purpose is for users to send their own images for use on the site at all breakpoints.
+
+* As a user I want to know more about the site.
+    * Upon reading the text found on the home page, the user navigates to the about page via the nav bar. When arriving to the page they are presented with two paragraphs of information, one more focused on information about the franchise and game itself. And the other more focused on the site and it's purpose. 
 
 ## Target Audiences:
 * Users who are dedicated fans of the franchise and game looking for unique, visually appealing backgrounds of landscapes and set pieces they will recognize, taken within the game.
@@ -56,9 +59,11 @@ Here are my wireframes that I created at the start of my project and used as the
 
 * The second change being made to the about page which I decided to reformat slightly so as to not be almost identical to the home page of the site. I decided to add another image in to both add more content to the page and assist in achieving a more noticeably responsive design, aswell as breaking text up more evenly so as to not bombard the user with one massive paragraph of text.
 
+* Something I wanted to mention was my decision to leave the paragraphs on the about page without headers. This is because I feel the information found in both is very relevant to the other, and all people I had test the site for me said that they would have read both paragraphs wether they had the informative headers I came up with or not. Because of this and my preference for the styling, I have not added them.
+
 * The final big change I would like to point out is the columns of images on the gallery page on tablet was initially going to be two, the same as mobile just with more spacing between the images. the reason I changed this to three columns was partly to show more noticeable responsiveness along with the fact I liked it more than my original design once I had done it, however it was mostly because I found I would need either a visually unappealing amount of spacing between images or have the images be larger to fill in the spaces which caused issues with the image dimensions on the right hand side.
 
-* Finally I would just like to mention a few small differences. That positioning of the nav toggle icon changed simply because I struggled to move it to the right hand side of the display, and when looking and testing it myself aswell as other people, I found no reason to keep trying as it worked as intended and I liked it just as much. The positioning of nav elements in tablet and desktop changed as a spur of the moment decision. And lastly I scrapped the button at the bottom of the home page to navigate to the gallery page, in favour of a sticky top nav.
+* Finally I would just like to mention a few small differences. That positioning of the nav toggle icon changed simply because I struggled to move it to the right hand side of the display, and when looking and testing it myself aswell as other people, I found no reason to keep trying as it worked as intended and I liked it just as much. The positioning of nav elements in tablet and desktop changed as a spur of the moment decision. And lastly I scrapped the button at the bottom of the home page to navigate to the gallery page, in favour of a sticky top nav. 
 
 # Features
 
