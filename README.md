@@ -276,3 +276,6 @@ The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 
 * I learned how to outline text from Kevin Powell vie Youtube
 
+### And a huge thanks...
+to my mentor Rich, who has gone above and beyond to guide me through the development process, push me to put all my skills and knowledge into this project and help me create my website up to the standard I want!
+
