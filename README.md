@@ -181,7 +181,7 @@ Further down the line, when my knowledge of css and general web development has 
 
 ## Responsiveness Testing:
 
-I began testing the responsiveness of the site firstly by switching through different device screen sizes using developer tools on google chrome on each page and using every feature at each main breakpoint. Below you will find a screenshot of the full list of the device screen sizes used. After discovering an issue with the styling of the footer text breaking on the samsung s8 screen, I went on dev tools and used the responsive sliders to pinpoint the breakpoint where the issue appears. I then adjusted the text and font-size which fixed the issue. 
+I began testing the responsiveness of the site firstly by switching through different device screen sizes using developer tools on google chrome on each page and using every feature at each main breakpoint. Below you will find a screenshot of the full list of the device screen sizes used.
 
 * List of device screen-sizes used in dev tools:
 
@@ -248,6 +248,26 @@ The devices in the devices used list above marked with  ^  are the main devices 
 * Then I clicked on at least one image per row and viewed the modal, checking not only that all styling was as expected and all elements had rendered, but also that the images themselves and titles would change immediately and correctly aswell as varying the method I would close the modal between the three options the user is presented with. Each time I went on the modal I would download the image using the download button and tested that worked for all Images in the gallery. 
 
 ## Bug Report:
+
+* Witcher Style Font:
+    * Issue: Text with the Witcher style font only appeared with the intended font on the device I was using to develope the site, opening it on any other device would show the text in the fall-back font.
+    * Cause: Misinformation on Stack Overflow caused me to use the wrong format to use the font in the site (I had converted the file into an svg type and also woff and woff2)
+    * Resolution: My mentor rich helped me learn the correct method use this font. Using the file in the ttf format fixed the error.
+
+* Nav Toggle Icon:
+    * Issue: Navigation menu toggle icon not appearing on mobile screen sizes.
+    * Cause: Using custom color with the Nav template from Bootstrap's docs.
+    * Resolution: I looked around on google and found a Stack Overflow thread of people that had the same problem. I went through a few solutions with none being successful until taking a suggestion on adding the "ms-auto" class to the outer div element which somehow fixed the problem.
+
+* Footer Text:
+    * Issue: Styling of footer link-text breaking at smaller mobile screen sizes.
+    * Cause: Poor choices of font size and text.
+    * Resolution: Brought the font size down slightly and re-wrote the text to be as informative as the original just with fewer words.
+
+* Carousel Animation (Original Design):
+    * Issue: When viewing the home page from a tablet screen size or bigger, the animation for the carousel would stop working.
+    * Cause: The carousel was a Bootstrap template, and had background Js from Bootstrap to make the animation work. When using the flex function to make the carousel display two or three images, the Js was trying to move one image with the animation at a time, with the other images on display remaining in place and the image that had the animation springing back to it's original place.
+    * Resolution: I spent a long time trying to make this work and even after fixing the animation on one specific screen size, getting it to work perfectly like it had to was going to take alot more time and knowledge that i didn't have. For that reason I took the advice from my mentor Rich and scrapped my current design in favour of the carousel found on the live site.
 
 # Deployment
 
