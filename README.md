@@ -19,7 +19,7 @@
 
 # Site Overview 
 
-![Am I Responsive screenshot](docs/screenshots/amiresponsie.png)
+![Am I Responsive screenshot](docs/screenshots/air%20ss.png)
 
 Witcher Pictures is a site dedicated to showcasing photography from the award winning video game Witcher 3 the Wild Hunt. The Witcher is an immensely popular franchise wether it be fans of the books, games or more recently from the Netflix series. There are many fans like myself who have sunk dozens of hours into this game and still to this day find things they have never seen before, or are simply blown away by the attention to detail and high quality textures used throughout the landscapes and interiors of the open world. Yet despite that I rarely come across any images that really capture the beauty of this game, sure there are some out there, but what I have found tends to be a lot of the same images, with any being unique or actually from the within game being few and far between. This site looks to change that by hosting a large number of images all in one, easy to navigate site, where users are able to look through and download any they like and use them themselves with just a few taps of their screen.
 
@@ -90,7 +90,7 @@ Below you will find a list of the features currently found on the site, and also
 
     * Each navigation link has a hover feature providing visual feedback for the user. Each page has a separate active link which provides the user instant feedback regarding their location on the site.
 
-
+   ![Nav Screenshot](docs/screenshots/nav.png)
 
 * Sticky Navigation Menu
 
@@ -102,13 +102,18 @@ Below you will find a list of the features currently found on the site, and also
 
     * This feature is intuitively designed with a recognisable 'burger' style icon when on a mobile device and is easily accessible for the user
 
+    ![M Nav Screenshot](docs/screenshots/Mobilenav-Title.png)
+
 ### Carousel:
-    
+
+![Carousel Screenshot](docs/screenshots/Carousel.png)
 * The Carousel is fully responsive and is found only on the Home page.
 
 * It allows users to have a preview on the type of images the site is built to showcase
 
 * Rather than a controllable sliding carousel, I went with a automated fade transition as I found it to be more visually appealing aswell as preventing the user rushing through the images.
+
+    ![M Carousel Screenshot](docs/screenshots/mCarousel.png)
 
     * This type of carousel replaced my original idea (found in the wirfeframes section of this Readme). The reason I made the change as it required javascript to run when using the flex function to change the carousel to two and three images depending on screen size. As i have not learned any Js, when talking to my mentor he advised me to try something else as it would be alot of time and effort to get it to work predictably, that would be better spent on other parts of my website.
 
@@ -116,11 +121,17 @@ Below you will find a list of the features currently found on the site, and also
 
 * The gallery page features a fully responsive image gallery utilizing bootstrap 5's grid system.
 
+
 * Each image has a zoom hover effect to provide the user with visual feedback so they know they are selecting the desired image.
 
+    ![M Gallery Screenshot](docs/screenshots/mGallery.png)
 * The image gallery has two columns on mobile with minimal spacing to allow the image as much real estate on the screen as possible so that users easily see what images they like.
 
+    ![D Gallery Screenshot](docs/screenshots/Gallery.png)
+
 * And then on tablet the image gallery expands to three columns, and four on desktop each with much more spacing between images so that the user can clearly see each image aswell as to allow for the zoom hover effect without blocking surrounding images to much.
+
+    ![T Gallery Screenshot](docs/screenshots/TGallery.png)
 
 
 ### Modal:
@@ -129,19 +140,25 @@ Below you will find a list of the features currently found on the site, and also
 
 * The modal is completely responsive, meaning there is one modal thats content and title will change depending on what image the user clicks. This is achieved using a small amount of javascript.
 
+    ![Modal Screenshot](docs/screenshots/modal.png)
+
 * I kept the basic structure of Bootstrap's default modal, giving users plenty of options to exit the modal and continue scrolling through the gallery. This being a close button below the image, an X in the top right corner of the modal, which I kept as it is very accessible and recognizable to have in that location. And also allows the user to click outside of the modal to close the modal and continue looking at other images.
 
 * The main feature of the modal itself is the download button,styled to conform with the rest of the sites styling aswell as stand out, found below the image which allows the user to download the image they have selected and that has presented itself within the modal to their own devices. This is also done using javascript.
+    ![Modal mobile Screenshot](docs/screenshots/mModal.png)
 
 ### Footer:
 
 * The footer is fully responsive and found on all three pages of the site.
 
+    ![D Footer Screenshot](docs/screenshots/DesktopFooter.png)
 * Whilst content slightly varies on one page, the color scheme and styling remain uniform across all three pages.
 
 * This contains links to the game devs website as well as the witcher fandom page in mobile view on the Home and About pages, for users who wish to learn a lot more about the franchise.
+    ![M Footer Screenshot](docs/screenshots/MobileFooter.png)
 
 * In tablet and desktop aswell as being present on all screen sizes on the Gallery page, this section also contains a link to an email where users can send any images from the game that they would like to share and have  featured on the site.
+    ![GM Footer Screenshot](docs/screenshots/mgalleryFooter.png)
 
 ## Future Updates:
 
@@ -164,6 +181,9 @@ Further down the line, when my knowledge of css and general web development has 
 ## Responsiveness Testing:
 
 I began testing the responsiveness of the site firstly by switching through different device screen sizes using developer tools on google chrome on each page and using every feature at each main breakpoint. Below you will find a screenshot of the full list of the device screen sizes used. After discovering an issue with the styling of the footer text breaking on the samsung s8 screen, I went on dev tools and used the responsive sliders to pinpoint the breakpoint where the issue appears. I then adjusted the text and font-size which fixed the issue. 
+
+* List of device screen-sizes used in dev tools:
+    ![Dev device list Screenshot](docs/screenshots/Devicelist.png)
 
 ### I have tried to test the website on as many devices as I can, however, I don't have access to many. here I will include a list of all the devices that I have been to use to test the site:
 * ASUS Zenbook Duo 14 ^
@@ -212,6 +232,8 @@ The devices in the devices used list above marked with  ^  are the main devices 
     * About page Lighthouse results:
         ![Lighthouse Screenshot](docs/screenshots/aboutLighthouse.png)
 
+### CSS Validator Results:
+![CSS Validator Screenshot](docs/screenshots/CSSValidator.png)
 
 ## Functionality Testing:
 
@@ -250,5 +272,5 @@ The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 
 * I used [Imageresizer.com](https://imageresizer.com) to resize all of my images and [Optimizilla](https://imagecompressor.com) to compress my images
 
-* I learnt how to outline text from Kevin Powell vie Youtube
+* I learned how to outline text from Kevin Powell vie Youtube
 
