@@ -54,6 +54,7 @@ When choosing the colors for my site, I wanted a darker color for my main backgr
 Below is a grid that I have used to check the contrast scores so as to be sure all text remains readable throughout the site, created on https://contrast-grid.eightshapes.com/ .
 
 ![Color grid Screenshot](docs/screenshots/ColorGrid.png)
+* The only times that colors with poor contrast are used, are for hover effects to show the user they are selecting/clicking what they intended to, therefore the readability does not matter in that regard. Apart from that the only color combinations used are those that pass.
 
 ## Wireframes:
 
@@ -127,7 +128,7 @@ Below you will find a list of the features currently found on the site, and also
     ![M Gallery Screenshot](docs/screenshots/mGallery.png)
 * The image gallery has two columns on mobile with minimal spacing to allow the image as much real estate on the screen as possible so that users easily see what images they like.
 
-    ![D Gallery Screenshot](docs/screenshots/Gallery.png)
+    ![D Gallery Screenshot](docs/screenshots/Galleryzoom.png)
 
 * And then on tablet the image gallery expands to three columns, and four on desktop each with much more spacing between images so that the user can clearly see each image aswell as to allow for the zoom hover effect without blocking surrounding images to much.
 
@@ -157,7 +158,7 @@ Below you will find a list of the features currently found on the site, and also
 * This contains links to the game devs website as well as the witcher fandom page in mobile view on the Home and About pages, for users who wish to learn a lot more about the franchise.
     ![M Footer Screenshot](docs/screenshots/MobileFooter.png)
 
-* In tablet and desktop aswell as being present on all screen sizes on the Gallery page, this section also contains a link to an email where users can send any images from the game that they would like to share and have  featured on the site.
+* In tablet and desktop aswell as being present on all screen sizes on the Gallery page, this section also contains a link to an email where users can send any images from the game that they would like to share and have featured on the site.
     ![GM Footer Screenshot](docs/screenshots/mgalleryFooter.png)
 
 ## Future Updates:
@@ -183,6 +184,7 @@ Further down the line, when my knowledge of css and general web development has 
 I began testing the responsiveness of the site firstly by switching through different device screen sizes using developer tools on google chrome on each page and using every feature at each main breakpoint. Below you will find a screenshot of the full list of the device screen sizes used. After discovering an issue with the styling of the footer text breaking on the samsung s8 screen, I went on dev tools and used the responsive sliders to pinpoint the breakpoint where the issue appears. I then adjusted the text and font-size which fixed the issue. 
 
 * List of device screen-sizes used in dev tools:
+
     ![Dev device list Screenshot](docs/screenshots/Devicelist.png)
 
 ### I have tried to test the website on as many devices as I can, however, I don't have access to many. here I will include a list of all the devices that I have been to use to test the site:
