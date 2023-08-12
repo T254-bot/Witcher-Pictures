@@ -19,7 +19,7 @@
 
 # Site Overview 
 
-![Am I Responsive screenshot](docs/screenshots/Screenshot%202023-08-10%20at%2018.44.56%20(1).png)
+![Am I Responsive screenshot](docs/screenshots/amiresponsie.png)
 
 Witcher Pictures is a site dedicated to showcasing photography from the award winning video game Witcher 3 the Wild Hunt. The Witcher is an immensely popular franchise wether it be fans of the books, games or more recently from the Netflix series. There are many fans like myself who have sunk dozens of hours into this game and still to this day find things they have never seen before, or are simply blown away by the attention to detail and high quality textures used throughout the landscapes and interiors of the open world. Yet despite that I rarely come across any images that really capture the beauty of this game, sure there are some out there, but what I have found tends to be a lot of the same images, with any being unique or actually from the within game being few and far between. This site looks to change that by hosting a large number of images all in one, easy to navigate site, where users are able to look through and download any they like and use them themselves with just a few taps of their screen.
 
@@ -53,10 +53,17 @@ When choosing the colors for my site, I wanted a darker color for my main backgr
 
 Below is a grid that I have used to check the contrast scores so as to be sure all text remains readable throughout the site, created on https://contrast-grid.eightshapes.com/ .
 
+![Color grid Screenshot](docs/screenshots/ColorGrid.png)
+
 ## Wireframes:
 
 Here are my wireframes that I created at the start of my project and used as the rough template for my site, for mobile, tablet and desktop viewing. Below them you will find a list detailing how the design has changed as the development process was going on. More information on why these changes where made will be found below.
 
+![WF Screenshot](docs/screenshots/MWireframe.png)
+
+![WF Screenshot](docs/screenshots/TWireframe.png)
+
+![WF Screenshot](docs/screenshots/DWireframe.png)
 
 * The first big difference between the wireframe and finished product is the carousel on the home page, which i initially planned on being a row of several images that all slide to the left in synch with one another and reacted responsively (two images of mobile and tablet, three on desktop).
 
@@ -181,6 +188,31 @@ The devices in the devices used list above marked with  ^  are the main devices 
 
 ## Validator results
 
+### HTML Validator:
+
+* Home page:
+    ![Html Validator Screenshot](docs/screenshots/hHTMLValidator.png)
+    * The warning found on this page is also found on the other two pages. The reason for it is that for the sticky nav function to work, the nav needs to be in its own section. And due to the fact the nav does not require a header and having one would break the styling of the element, I have left this as it is.
+    
+    * Home page Lighthouse results:
+        ![Lighthouse Screenshot](docs/screenshots/homeLighthouse.png)
+
+* Gallery page:
+    ![Html Validator Screenshot](docs/screenshots/gHTMLValidator.png)
+    * The first warning seen matches the one found in the Home page. The other warning found on this page is for the empty heading in the gallery modal. This is also being left as, for the javascript to swap the titles for the images it uses a "data-title" attribute to pass text into this heading, and as it is easier for the Js to pass the text into blank space rather than replacing text.
+
+    * Gallery page Lighthouse results:
+        ![Lighthouse Screenshot](docs/screenshots/galleryLighthouse.png)
+
+
+* About page:
+    ![Html Validator Screenshot](docs/screenshots/aHTMLValidator.png)
+    * This warning matches the one found in the Home page.
+
+    * About page Lighthouse results:
+        ![Lighthouse Screenshot](docs/screenshots/aboutLighthouse.png)
+
+
 ## Functionality Testing:
 
 * When testing the functionality of all the sites features I started with the features found across all pages of the site. Beginning with the nav I went from home to gallery and back, home to about and back, and finally from gallery to about and back and had no problems during this process. I then used my phone to view the site in mobile view and repeated the process, in doing so also testing the nav toggle icon that is used in the mobile layout of the site and that was all also successful. 
@@ -200,6 +232,8 @@ The devices in the devices used list above marked with  ^  are the main devices 
     * From the left hand menu, select pages.
     * From the source section drop-down menu, select the Main Branch.
     * Once the main branch has been selected, the page will refresh and provide a link to the live project.
+    ![Deployment page screenshot](docs/screenshots/deployss.png)
+
 The live link can be found here - https://t254-bot.github.io/Witcher-Pictures/
 
 # Credits
