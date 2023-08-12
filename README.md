@@ -159,6 +159,7 @@ Below you will find a list of the features currently found on the site, and also
     ![M Footer Screenshot](docs/screenshots/MobileFooter.png)
 
 * In tablet and desktop aswell as being present on all screen sizes on the Gallery page, this section also contains a link to an email where users can send any images from the game that they would like to share and have featured on the site.
+
     ![GM Footer Screenshot](docs/screenshots/mgalleryFooter.png)
 
 ## Future Updates:
