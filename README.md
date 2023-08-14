@@ -1,7 +1,6 @@
 # Table of Content
 1. [Site Overview](#site-overview)
 2. [Planning](#planning)
-    * [User Stories](#user-stories)
     * [Target Audiences](#target-audiences)
     * [Color Scheme](#color-scheme)
     * [Wireframes](#wireframes)
@@ -31,7 +30,7 @@ Witcher Pictures is a site dedicated to showcasing photography from the award wi
 * Users who have some knowledge of the franchise and are interested about the game.
 * Users who have little to no knowledge about the franchise or video games in general and are interested in learning about it aswell as seeing how visually impressive a video game can be.
 
-### User Stories
+### User Stories:
 
 * As a user I want to understand the sites purpose.
 
