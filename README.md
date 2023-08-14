@@ -12,6 +12,7 @@
     * [Responsiveness](#responsiveness-testing)
     * [Validator Results](#validator-results)
     * [Functionality](#functionality-testing)
+    * [User Stories](#the-user-stories)
     * [Bug Report](#bug-report)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
@@ -25,27 +26,22 @@ Witcher Pictures is a site dedicated to showcasing photography from the award wi
 
 # Planning 
 
-## User Stories:
-
-* As a user I want to understand the sites purpose.
-    * When they enter the site the user will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
-
-* As a user I want to see images from The Witcher 3.
-    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to view all of the images the site has. From there they will navigate over to the gallery via the nav-link text, which they are able to find no matter how far they've scrolled thanks to the sticky nav used across the site. When on the gallery page, the user is able to bring the images up in a modal to get a better look at any of the images on the page.
-
-* As a user I want to be able to download the images easily.
-    * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
-
-* As a user I want to be able to send my images from my local e-mail client.
-    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery the user finds the footer below, which while being hidden on the home and about pages in mobile view to avoid a large clunky footer degrading the appearance of the site, on the gallery page the footer contains an email address thats clear purpose is for users to send their own images for use on the site at all breakpoints.
-
-* As a user I want to know more about the site.
-    * Upon reading the text found on the home page, the user navigates to the about page via the nav bar. When arriving to the page they are presented with two paragraphs of information, one more focused on information about the franchise and game itself. And the other more focused on the site and it's purpose. 
-
 ## Target Audiences:
 * Users who are dedicated fans of the franchise and game looking for unique, visually appealing backgrounds of landscapes and set pieces they will recognize, taken within the game.
 * Users who have some knowledge of the franchise and are interested about the game.
 * Users who have little to no knowledge about the franchise or video games in general and are interested in learning about it aswell as seeing how visually impressive a video game can be.
+
+### User Stories
+
+* As a user I want to understand the sites purpose.
+
+* As a user I want to see images from The Witcher 3.
+
+* As a user I want to be able to download the images easily.
+
+* As a user I want to be able to send my images from my local e-mail client.
+
+* As a user I want to know more about the site.
 
 ## Color Scheme:
 
@@ -247,6 +243,23 @@ The devices in the devices used list above marked with  ^  are the main devices 
 * For the home page I simply watched the carousel cycle through several times, making sure all images appeared and titles where correct, animation was smooth and would keep repeating until the user clicks off of the page. I then used my phone to open the home page in mobile view and check that the titles disappeared. Finally with the gallery at first I scrolled through all the images to make sure all had loaded, then going over all of them with the mouse to check the animation for desktop was working. 
 
 * Then I clicked on at least one image per row and viewed the modal, checking not only that all styling was as expected and all elements had rendered, but also that the images themselves and titles would change immediately and correctly aswell as varying the method I would close the modal between the three options the user is presented with. Each time I went on the modal I would download the image using the download button and tested that worked for all Images in the gallery. 
+
+## The User Stories:
+
+* As a user I want to understand the sites purpose.
+    * When they enter the site the user will land on the home page. The small amount of text immediately presented to them informs the user of the site's main purpose. The partially visible image carousel prompts the user to continue scrolling to view a preview of the sites main content as well as another small amount of text to clarify the content found on the site and where to find it.
+
+* As a user I want to see images from The Witcher 3.
+    * Upon reading the text found on the home page and viewing the images found in the carousel, they want to view all of the images the site has. From there they will navigate over to the gallery via the nav-link text, which they are able to find no matter how far they've scrolled thanks to the sticky nav used across the site. When on the gallery page, the user is able to bring the images up in a modal to get a better look at any of the images on the page.
+
+* As a user I want to be able to download the images easily.
+    * The home page content immediately lets the user know that the site has the type of content they are looking for. They navigate to the gallery straight away after seeing the option in the navigation menu. As they hover over the images with their mouse they are prompted to click on the image by the zoom effect which brings up the image within the modal. After selecting the image they want, they click the bright download button found just below the modal image which downloads a copy of image straight to the users devices.
+
+* As a user I want to be able to send my images from my local e-mail client.
+    * After finding the site and looking at its content, the user thinks about their own images that they have taken within the game and would like to find out if there way any way for their images to be displayed on the site for others. Looking through the entire gallery the user finds the footer below, which while being hidden on the home and about pages in mobile view to avoid a large clunky footer degrading the appearance of the site, on the gallery page the footer contains an email address thats clear purpose is for users to send their own images for use on the site at all breakpoints.
+
+* As a user I want to know more about the site.
+    * Upon reading the text found on the home page, the user navigates to the about page via the nav bar. When arriving to the page they are presented with two paragraphs of information, one more focused on information about the franchise and game itself. And the other more focused on the site and it's purpose. 
 
 ## Bug Report:
 
